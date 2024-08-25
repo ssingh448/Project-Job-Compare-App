@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurrentJobActivity">
+
+    <TextView
+        android:id="@+id/CJtitleID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="70dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Title"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/CurrentJobCompanyID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Company"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/CJtitleID"
+        app:layout_constraintStart_toStartOf="@+id/CJtitleID"
+        app:layout_constraintTop_toBottomOf="@+id/CJtitleID" />
+
+    <TextView
+        android:id="@+id/CurrentJoblocationID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Location"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/CurrentJobCompanyID"
+        app:layout_constraintStart_toStartOf="@+id/CurrentJobCompanyID"
+        app:layout_constraintTop_toBottomOf="@+id/CurrentJobCompanyID" />
+
+    <TextView
+        android:id="@+id/CurrentJobysalaryID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Yearly Salary"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/CurrentJoblocationID"
+        app:layout_constraintStart_toStartOf="@+id/CurrentJoblocationID"
+        app:layout_constraintTop_toBottomOf="@+id/CurrentJoblocationID" />
+
+    <TextView
+        android:id="@+id/CurrentJobybonusID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Yearly Bonus"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/CurrentJobysalaryID"
+        app:layout_constraintStart_toStartOf="@+id/CurrentJobysalaryID"
+        app:layout_constraintTop_toBottomOf="@+id/CurrentJobysalaryID" />
+
+    <TextView
+        android:id="@+id/CurrentJobleaveID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Leave Time"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/CurrentJobybonusID"
+        app:layout_constraintStart_toStartOf="@+id/CurrentJobybonusID"
+        app:layout_constraintTop_toBottomOf="@+id/CurrentJobybonusID" />
+
+    <TextView
+        android:id="@+id/CurrentJobstockID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Stock Options"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/CurrentJobleaveID"
+        app:layout_constraintStart_toStartOf="@+id/CurrentJobleaveID"
+        app:layout_constraintTop_toBottomOf="@+id/CurrentJobleaveID" />
+
+    <TextView
+        android:id="@+id/CurrentJobhomeFundID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Home Buying Program Fund"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/CurrentJobstockID"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/CurrentJobstockID"
+        app:layout_constraintTop_toBottomOf="@+id/CurrentJobstockID" />
+
+    <TextView
+        android:id="@+id/CurrentJobwellnessFundID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Wellness Fund"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/CurrentJobhomeFundID"
+        app:layout_constraintStart_toStartOf="@+id/CurrentJobhomeFundID"
+        app:layout_constraintTop_toBottomOf="@+id/CurrentJobhomeFundID" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="176dp" />
+
+    <EditText
+        android:id="@+id/editCurrentJobtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="200"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/CJtitleID" />
+
+    <EditText
+        android:id="@+id/editCurrentJobComapny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="200"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/CurrentJobCompanyID" />
+
+    <EditText
+        android:id="@+id/editCurrentJobLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="200"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/CurrentJoblocationID" />
+
+    <EditText
+        android:id="@+id/editCurrentJobysalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="9"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/CurrentJobysalaryID" />
+
+    <EditText
+        android:id="@+id/editCurrentJobybonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="9"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/CurrentJobybonusID" />
+
+    <EditText
+        android:id="@+id/editCurrentJobleave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="9"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/CurrentJobleaveID" />
+
+    <EditText
+        android:id="@+id/editCurrentJobstock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="9"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/CurrentJobstockID" />
+
+    <EditText
+        android:id="@+id/editCurrentJobhomeFund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="9"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/CurrentJobhomeFundID" />
+
+    <EditText
+        android:id="@+id/editCurrentJobwellnessFund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="9"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/CurrentJobwellnessFundID" />
+
+    <Button
+        android:id="@+id/CurrentJobsaveID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="@+id/CurrentJobbackID"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/CurrentJobbackID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/CurrentJobsaveID"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCurrentJob"
+        android:layout_width="412dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="20dp"
+        android:background="#6200ED"
+        android:text="Current Job "
+        android:textAlignment="center"
+        android:textColor="#E3E3E3"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

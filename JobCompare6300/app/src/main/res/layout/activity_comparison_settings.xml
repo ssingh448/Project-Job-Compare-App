@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComparisonSettingsActivity">
+
+    <TextView
+        android:id="@+id/textViewComparisonSettings"
+        android:layout_width="412dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="20dp"
+        android:background="#6200ED"
+        android:text="Comparison Settings"
+        android:textAlignment="center"
+        android:textColor="#E3E3E3"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ComparisonSettingsysalaryID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="150dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Yearly Salary"
+        android:gravity="center"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ComparisonSettingsybonusID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:gravity="center"
+        android:text="Yearly Bonus"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/ComparisonSettingsysalaryID"
+        app:layout_constraintStart_toStartOf="@+id/ComparisonSettingsysalaryID"
+        app:layout_constraintTop_toBottomOf="@+id/ComparisonSettingsysalaryID" />
+
+    <TextView
+        android:id="@+id/ComparisonSettingsleaveID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Leave Time"
+        android:gravity="center"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/ComparisonSettingsybonusID"
+        app:layout_constraintStart_toStartOf="@+id/ComparisonSettingsybonusID"
+        app:layout_constraintTop_toBottomOf="@+id/ComparisonSettingsybonusID" />
+
+    <TextView
+        android:id="@+id/ComparisonSettingsstockID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Stock Options"
+        android:gravity="center"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/ComparisonSettingsleaveID"
+        app:layout_constraintStart_toStartOf="@+id/ComparisonSettingsleaveID"
+        app:layout_constraintTop_toBottomOf="@+id/ComparisonSettingsleaveID" />
+
+    <TextView
+        android:id="@+id/ComparisonSettingshomeFundID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Home Buying Program Fund"
+        android:gravity="center"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/ComparisonSettingsstockID"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/ComparisonSettingsstockID"
+        app:layout_constraintTop_toBottomOf="@+id/ComparisonSettingsstockID" />
+
+    <TextView
+        android:id="@+id/ComparisonSettingswellnessFundID"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39"
+        android:includeFontPadding="true"
+        android:paddingStart="5dp"
+        android:text="Wellness Fund"
+        android:gravity="center"
+        android:textAlignment="inherit"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="@+id/ComparisonSettingshomeFundID"
+        app:layout_constraintStart_toStartOf="@+id/ComparisonSettingshomeFundID"
+        app:layout_constraintTop_toBottomOf="@+id/ComparisonSettingshomeFundID" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="150dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="360dp" />
+
+    <Button
+        android:id="@+id/ComparisonSettingssaveID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="@+id/ComparisonSettingsbackID"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/ComparisonSettingsbackID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="20dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ComparisonSettingssaveID"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="212dp"
+        android:layout_height="38dp"
+        android:max="10"
+        android:progress="1"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/ComparisonSettingsysalaryID" />
+
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="212dp"
+        android:layout_height="38dp"
+        android:max="10"
+        android:progress="1"
+        app:layout_constraintEnd_toEndOf="@+id/seekBar1"
+        app:layout_constraintStart_toStartOf="@+id/seekBar1"
+        app:layout_constraintTop_toTopOf="@+id/ComparisonSettingsybonusID" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="212dp"
+        android:layout_height="38dp"
+        android:max="10"
+        android:progress="1"
+        app:layout_constraintEnd_toEndOf="@+id/seekBar2"
+        app:layout_constraintStart_toStartOf="@+id/seekBar2"
+        app:layout_constraintTop_toTopOf="@+id/ComparisonSettingsleaveID" />
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="212dp"
+        android:layout_height="38dp"
+        android:max="10"
+        android:progress="1"
+        app:layout_constraintEnd_toEndOf="@+id/seekBar3"
+        app:layout_constraintStart_toStartOf="@+id/seekBar3"
+        app:layout_constraintTop_toTopOf="@+id/ComparisonSettingsstockID" />
+
+    <SeekBar
+        android:id="@+id/seekBar5"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="212dp"
+        android:layout_height="38dp"
+        android:max="10"
+        android:progress="1"
+        app:layout_constraintEnd_toEndOf="@+id/seekBar4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/seekBar4"
+        app:layout_constraintTop_toTopOf="@+id/ComparisonSettingshomeFundID" />
+
+    <SeekBar
+        android:id="@+id/seekBar6"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="212dp"
+        android:layout_height="38dp"
+        android:contextClickable="true"
+        android:max="10"
+        android:progress="1"
+        app:layout_constraintEnd_toEndOf="@+id/seekBar5"
+        app:layout_constraintStart_toStartOf="@+id/seekBar5"
+        app:layout_constraintTop_toTopOf="@+id/ComparisonSettingswellnessFundID" />
+
+    <TextView
+        android:id="@+id/valueAYS"
+        android:layout_width="25dp"
+        android:layout_height="41dp"
+        android:text="1"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/seekBar1" />
+    />
+
+    <TextView
+        android:id="@+id/valueAYB"
+        android:layout_width="25dp"
+        android:layout_height="41dp"
+        android:text="1"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/seekBar2" />
+    />
+
+    <TextView
+        android:id="@+id/valueLT"
+        android:layout_width="25dp"
+        android:layout_height="41dp"
+        android:text="1"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/seekBar3" />
+    />
+
+    <TextView
+        android:id="@+id/valueCSO"
+        android:layout_width="25dp"
+        android:layout_height="41dp"
+        android:text="1"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/seekBar4" />
+    />
+
+    <TextView
+        android:id="@+id/valueHBP"
+        android:layout_width="25dp"
+        android:layout_height="41dp"
+        android:text="1"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/seekBar5" />
+    />
+
+    <TextView
+        android:id="@+id/valueWF"
+        android:layout_width="25dp"
+        android:layout_height="41dp"
+        android:text="1"
+        android:textColor="#1B255C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/seekBar6" />
+    />
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
